@@ -1,0 +1,72 @@
+/* Styles personnalisés pour le cours */
+
+:root {
+    --vp-home-hero-name-color: rgb(217,105, 125);
+    --vp-button-brand-hover-bg: rgb(193, 93, 111);
+    --vp-c-brand-3: rgb(193, 93, 111);
+    --vp-c-brand-1: rgb(217,105, 125);
+}
+
+/* Style pour les footnotes */
+.footnotes {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--vp-c-divider);
+  font-size: 0.9em;
+}
+
+.footnotes ol {
+  padding-left: 1.5rem;
+}
+
+.footnotes li {
+  margin-bottom: 0.5rem;
+}
+
+.footnote-ref {
+  color: var(--vp-c-brand);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footnote-ref:hover {
+  text-decoration: underline;
+}
+
+/* Améliorer l'affichage des formules mathématiques */
+.vp-doc mjx-container {
+  margin: 0.5em 0;
+}
+
+/* Style pour les théorèmes, définitions, etc. */
+.theorem,
+.definition,
+.example,
+.proposition {
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  border-left: 4px solid var(--vp-c-brand);
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 4px;
+}
+
+.theorem-title,
+.definition-title,
+.example-title,
+.proposition-title {
+  font-weight: 600;
+  color: var(--vp-c-brand);
+  margin-bottom: 0.5rem;
+}
+
+.definition {
+  border-left-color: var(--vp-c-green);
+}
+
+.example {
+  border-left-color: var(--vp-c-purple);
+}
+
+.proposition {
+  border-left-color: var(--vp-c-yellow);
+}
