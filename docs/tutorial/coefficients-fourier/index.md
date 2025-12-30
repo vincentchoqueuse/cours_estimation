@@ -69,9 +69,17 @@ $$
 t_k = \frac{(k-1)T_{obs}}{m-1}, \quad k = 1, \ldots, m
 $$
 
-### Propriétés de la matrice $\mathbf{A}^T\mathbf{A}$
+### Expression de l'estimateur
 
-Dans ce cas général, la matrice $\mathbf{A}^T\mathbf{A}$ n'a **pas de structure particulière**. Elle est :
+En reconnaissant le modèle linéaire, l'estimateur des moindres carrés s'exprime sous la forme
+
+$$
+\widehat{\mathbf{s}} = (\mathbf{A}^H\mathbf{A})^{-1}\mathbf{A}^H\mathbf{x} = \mathbf{A}^\dagger\mathbf{x}
+$$
+
+### Propriétés de la matrice $\mathbf{A}^H\mathbf{A}$
+
+Dans ce cas général, la matrice $\mathbf{A}^H\mathbf{A}$ n'a **pas de structure particulière**. Elle est :
 
 - **Pleine** : tous les éléments sont non nuls
 - **Non diagonale** : les colonnes de $\mathbf{A}$ ne sont pas orthogonales
